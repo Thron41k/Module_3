@@ -1,8 +1,9 @@
-﻿const string myName = "Tim";
-Console.WriteLine(myName);
-Console.WriteLine("Привет, мир");
-Console.WriteLine("Мне 34 года");
+﻿string myName = "Tim";
+byte myAge = 34;
+bool haveIApet = true;
+double myShoeSize = 45.0;
 Console.WriteLine($"My name is {myName}");
-Console.WriteLine("\u0040");
-Console.WriteLine("\u0023");
+Console.WriteLine($"MyAge {myAge}");
+Console.WriteLine($"Do I have a pet? {haveIApet}");
+Console.WriteLine($"My shoe size is {myShoeSize}");
 Console.ReadKey();
