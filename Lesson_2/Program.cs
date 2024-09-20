@@ -1,4 +1,3 @@
-﻿string MyName;
-MyName = "Jane";
-Console.WriteLine(MyName);
+﻿var myName = "Tim";
+Console.WriteLine(myName);
 Console.ReadKey();
